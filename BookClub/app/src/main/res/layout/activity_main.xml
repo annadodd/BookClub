@@ -11,8 +11,37 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.annadodd.bookclub.MainActivity">
 
-    <TextView
+    <Button
+        android:text="Your Book Clubs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!!!!" />
+        android:id="@+id/button3"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="View Book Suggestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Update Book Suggestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
 </RelativeLayout>
